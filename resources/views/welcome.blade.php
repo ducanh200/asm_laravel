@@ -48,7 +48,7 @@
 
 
 </table>
-<a style="float: right" href="{{url("/create")}}"><button style="background-color: #069bea;margin-top: 10px;border-radius: 5px;padding: 5px" >Create Student</button></a>
+<a style="float: right" href="{{url("create")}}"><button style="background-color: #069bea;margin-top: 10px;border-radius: 5px;padding: 5px" >Create Student</button></a>
 </body>
 </html>
 

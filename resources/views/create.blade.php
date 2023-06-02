@@ -36,6 +36,7 @@
 </head>
 <body>
 <div class="add-form">
+
     <form class="add" id="addStudentForm">
         <input type="text" id="nameInput" placeholder="Name" required>
         <br>
@@ -49,8 +50,9 @@
         <input type="text" id="telephoneInput" placeholder="Telephone" required>
         <br>
         <br>
-        <input type="submit" value="Thêm">
+        <input  type="submit" value="Thêm">
     </form>
+
 </div>
 
 </body>

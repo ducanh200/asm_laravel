@@ -19,8 +19,6 @@ class WebController extends Controller
     }
     public function createStudent(){
         $student = Student::all();
-        return view('welcome',[
-            "student"=>$student
-        ]);
+        return redirect()->to("create");
     }
 }
