@@ -31,6 +31,6 @@ class CreateTableStudent extends Migration
     {
         Schema::table('student', function (Blueprint $table) {
             //
-        });
+         });
     }
 }

@@ -17,7 +17,7 @@ class   StudentFactory extends Factory
             "name"=>$this->faker->name,
             "age"=> random_int(15, 50),
             "address"=>$this->faker->text(50),
-            "telephone"=> random_int(1000000000, 2000000000)
+            "telephone"=> random_int(1000000000, 2000000000  )
         ];
     }
 }

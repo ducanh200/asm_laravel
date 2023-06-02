@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[\App\Http\Controllers\WebController::class,"home"]);
 Route::get('/create',[\App\Http\Controllers\WebController::class,"create"]);
-    Route::get('/create/add',[\App\Http\Controllers\WebController::class,"createStudent"]);
+Route::post('/create/add',[\App\Http\Controllers\WebController::class,"createStudent"]);
 

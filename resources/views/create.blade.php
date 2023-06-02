@@ -50,7 +50,7 @@
         <input type="text" id="telephoneInput" placeholder="Telephone" required>
         <br>
         <br>
-        <input  type="submit" value="Thêm">
+        <input  type="submit" value="Thêm" >
     </form>
 
 </div>
